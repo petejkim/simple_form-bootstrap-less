@@ -9,10 +9,10 @@
 //= require bootstrap
 //= require_tree .
 //
-
-$(function() {
-  $('a[data-code]').click(function() {
-    $('pre').toggle();
-  });
-});
-
+// 
+// $(function() {
+//   $('a[data-code]').click(function() {
+//     $('pre').toggle();
+//   });
+// });
+// 
