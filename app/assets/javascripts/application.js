@@ -7,12 +7,15 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
-//= require_tree .
+//= require google-code-prettify
 //
-// 
-// $(function() {
-//   $('a[data-code]').click(function() {
-//     $('pre').toggle();
-//   });
-// });
-// 
+
+$(function() {
+  prettyPrint();
+
+  $('a[data-code]').click(function(e) {
+    e.preventDefault();
+    $('pre').slideToggle();
+  });
+});
+

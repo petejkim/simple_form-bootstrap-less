@@ -1,4 +1,4 @@
-# SimpleForm and Twitter Bootstrap
+# SimpleForm / Twitter Bootstrap in LESS
 
 This is a example application using [SimpleForm](https://github.com/plataformatec/simple_form)
 and [Twitter Bootstrap](http://twitter.github.com/bootstrap)
@@ -10,8 +10,9 @@ git submodule init
 git submodule update
 ```
 
-to fetch Bootstrap after git clone.
+to fetch Bootstrap 2.0 after git clone.
 
 ## Licence
 
 MIT License. Copyright 2011 Plataforma Tecnologia. [blog.plataformatec.com.br](http://blog.plataformatec.com.br)
+
